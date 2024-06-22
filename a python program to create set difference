@@ -1,0 +1,4 @@
+a=set(input("enter the elements of the set "))
+b=set(input("enter the elements of the set "))
+print(b.difference(a))
+print(a-b)
