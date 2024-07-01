@@ -1,0 +1,9 @@
+import random 
+machine_guessed=random.randint(1,100)
+your_guess=(int(input("ener a random number between 1 and 100:")))
+if(your_guess==machine_guessed):
+    print("yayyy!You guessed it right")
+if(your_guess<machine_guessed):
+    print("you are almost there, just move backward towards the number")
+if(your_guess>machine_guessed):
+    print("you are almost there, just move forward towards the number")
