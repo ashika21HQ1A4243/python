@@ -1,0 +1,7 @@
+m=[0, 1, 2, 3, 0, 1, 2, 0, 0, 2, 2, 4, 5, 5, 0, 1, 2, 6, 2, 3, 0, 1, 0, 2, 0, 2]
+word=input("enter the word ").upper()
+code=word[0]
+for a in word[1:len(word)]:
+    i=ord(a)-ord('A')
+    code+=str(m[i])
+print(code)
